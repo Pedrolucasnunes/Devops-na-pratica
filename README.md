@@ -1,8 +1,8 @@
-# TaskFlow API — DevOps na Prática (PUCRS)
+# TaskFlow API: DevOps na Prática (PUCRS)
 
 ![CI](https://github.com/Pedrolucasnunes/devops-na-pratica/actions/workflows/ci.yml/badge.svg)
 
-Projeto da disciplina **DevOps na Prática** — Fase 1: Configuração e Automação Inicial.
+Projeto da disciplina **DevOps na Prática**, Fase 1: Configuração e Automação Inicial.
 Autor: **Pedro Lucas Fonseca Nunes**
 
 A TaskFlow é uma API REST de gerenciamento de tarefas (Node.js + Express), usada como
@@ -47,10 +47,10 @@ Status válidos: `pendente`, `em_andamento`, `concluida`.
 
 Executado em todo `push` e `pull request` para `main` e `develop`:
 
-1. **Lint** — ESLint
-2. **Testes** — Jest em matriz Node 20 e 22, com cobertura mínima de 80% e relatório publicado como artefato
-3. **Build** — build da imagem Docker + smoke test no `/health`
-4. **Terraform** — `fmt -check`, `init` e `validate` dos scripts de infraestrutura
+1. **Lint**: ESLint
+2. **Testes**: Jest em matriz Node 20 e 22, com cobertura mínima de 80% e relatório publicado como artefato
+3. **Build**: build da imagem Docker + smoke test no `/health`
+4. **Terraform**: `fmt -check`, `init` e `validate` dos scripts de infraestrutura
 
 ## Infraestrutura como Código (Terraform / AWS)
 
